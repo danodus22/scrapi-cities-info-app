@@ -1,4 +1,5 @@
-# scrapi-cities-info-app - Combine web scraping & API data for cities worldwide
+# scrapi-cities-info-app
+## Combine web scraping & API data for cities worldwide
 
 ## Project description
 
