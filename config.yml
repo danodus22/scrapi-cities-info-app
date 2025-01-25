@@ -1,0 +1,21 @@
+mysql:
+  schema: "gans"
+  host: "127.0.0.1"
+  user: "root"
+  password: "YOUR_MYSQL_PASSWORD"
+  port: 3306
+apis:
+  openweathermap:
+    api_key: "YOUR_OPENWEATHERMAP_APIKEY"
+    base_url: "https://api.openweathermap.org/data/2.5/forecast"
+  aerodatabox:
+    airports:
+      url: "https://aerodatabox.p.rapidapi.com/airports/search/location"
+      headers:
+        X-RapidAPI-Host: "aerodatabox.p.rapidapi.com"
+        X-RapidAPI-Key: "YOUR_RAPID_AERODATABOX_API_KEY"
+    flights:
+      url: "https://aerodatabox.p.rapidapi.com/flights/airports/iata/{airport_code}/{start}/{end}"
+      headers:
+        X-RapidAPI-Host: "aerodatabox.p.rapidapi.com"
+        X-RapidAPI-Key: "YOUR_RAPID_AERODATABOX_API_KEY"
